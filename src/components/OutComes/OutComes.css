@@ -1,0 +1,40 @@
+.outcomes-section{
+    font-family: 'Poppins', sans-serif;
+}
+.main-heading{
+    color: #171100;
+    font-family: 'Sen', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.main-para{
+    color: #5F5B53;
+    font-size: 16px;
+    line-height: 28px;
+}
+.sub-para{
+    color: #5F5B53;
+    font-size: 16px;
+}
+.btn-sign-up{
+    color: #fff !important;
+    font-weight: 600 !important;
+    background-color: #FFB900 !important;
+    width: 137px !important;
+}
+.btn-sign-up:hover{
+    color: #FFB900 !important;
+    background:#fff!important ;
+    border-color: #FFB900 !important;
+}
+@media screen and (max-width:600px) {
+        .main-heading{
+            font-size: 30px;
+        }
+        .head-row{
+            display: flex ;
+            justify-content: center;
+            text-align: center;
+        }
+}

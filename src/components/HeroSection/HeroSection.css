@@ -1,0 +1,66 @@
+.hero-section{
+    background-color: #FFFCF4;
+    font-family: 'sen', sans-serif;
+}
+.hero-secondary{
+    bottom: 0.5rem;
+    left: 17rem;
+}
+.main-heading{
+    color: #171100;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 68px;    
+}
+.secondary-heading{
+    color: #5f5853;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+/* .head-col{
+    display: flex !important;
+    justify-content: center !important;
+} */
+.btn-play{
+    background:#FFB900 !important;
+    color: #fff !important;
+    width: 180px !important;   
+    font-weight: 600 !important;
+}
+.watch-video{
+    color: #171100;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.recent-para{
+    color: #5f5b53;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.end-para{
+    color: #171100;
+    font-size: 44px;
+    font-weight: 700;
+}
+.end-span{
+    color: #5f5b53;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 400px){
+    .hero-image{
+        width: 99%;
+    }
+    .hero-secondary{
+        left: 1rem;
+        top: 18rem;
+    }
+    .main-heading{
+        font-size:48px;
+    }
+}

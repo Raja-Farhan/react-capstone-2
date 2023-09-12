@@ -1,0 +1,41 @@
+.carousel-container{
+    background-color: #2E2100;
+    font-family: 'Poppins', sans-serif;
+}
+.student-name{
+    color: #F7F7F7;
+    font-family: Sen;
+    font-size: 24px;
+    font-weight: 700;
+}
+.student-course{
+    color: #BFBCB2;
+    font-size: 14px;
+}
+.comment{
+    color: #fff;
+    font-size: 26px;
+    font-style: italic;
+    line-height: 40px;
+    width: 740px;
+}
+.slick-dots li button::before{
+    /* width: 90px !important; */
+    color: #FFB900 !important;
+    margin: 0;
+    left: -39.4rem !important;
+    top: -3rem !important;
+}
+@media screen and (max-width: 768px){
+        .student-name{
+            font-size:16px;
+        }
+        .student-course{
+            font-size: 14px;
+        }
+        .comment{
+            margin-top: -.5rem;
+            width: 170px;
+            font-size: 10px;
+        }
+}
