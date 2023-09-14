@@ -45,8 +45,8 @@ const Footer = () => {
                 </div>    
             </div>
             <div className='row '>
-                <div className="col-12 text-center">
-                    <img src={footer_divider} className='' alt="" />
+                <div className="col-sm-6 col-lg-12 col-xl-12 text-center">
+                    <img src={footer_divider} className='w-100' alt="" />
                 </div>
             </div>    
             <div className='row pt-2 pb-2'>
